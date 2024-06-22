@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+   
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    
+
+}
+
+
+h1 {
+    font-size: 48px;
+    padding: 35px;
+    text-align: center;
+}
+
+.btn_box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    button {
+        width: 254px;
+        height: 55px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        background-color: white;
+    }
+}
+
+
+.clothing_box {
+    margin-top: 50px;
+   
+}
+
+.clothing {
+    width: 370px;
+    height: 550px;
+    border: 1px solid #000;
+    
+
+    
+}
+
+.img_box {
+    height: 150px;
+
+     img {
+       padding: 30px 120px;
+     }
+}
+
+.text_box {
+    margin-top: 103px;
+    background-color: black;
+    height: 350px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        padding: 30px 0 0 30px;
+    }
+
+    p {
+        color: white;
+        font-size: 10px;
+        color: #c4c4c4;
+        font-weight: 600;
+        padding: 18px 0 0 30px;
+    }
+
+}
+
+.mony_box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    
+    p {
+     font-size: 20px;
+     font-weight: 400;
+     color: white   ;
+    }
+}
+
+.button_box {
+    margin-top: 25px;
+
+    button {
+        width: 305px;
+        height: 55px;
+        margin: 0 0 0 20px;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
+
+
+
